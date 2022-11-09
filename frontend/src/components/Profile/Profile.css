@@ -1,0 +1,63 @@
+body{
+    font-family: "Segoe UI";
+    background-color: beige;
+}
+
+h1{
+    font-family: 'Verdana'; 
+    font-size: 36px; 
+    font:bold; 
+    text-align: center;
+    text-decoration: underline;
+}
+
+h3{
+    text-align: center;
+}
+
+#clubRow{
+    display: flex;
+    justify-content: center;
+}
+.clubBox{
+    margin: 0em 1em 0em 1em;
+    width: 20%;
+}
+.clubContainer{
+    background-color: #c7997a;
+    height: max-content;
+    border-radius: 30px;
+    text-align: center;
+}
+.clubCount{
+    font-size: 40px;
+    font: bold;
+}
+
+input[type=submit]{
+    font-size: 20px;
+    padding: .5em 1em;
+}
+
+#countControls{
+    margin: 2em auto 0em auto;
+    width: fit-content;
+    text-align: center;
+}
+#countControls div{
+    text-align: left;
+}
+.formAdditions{
+    display: inline;
+}
+
+@media only screen and (max-width: 1200px) {
+    .clubContainer{
+        padding: 2em;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .clubContainer{
+        padding: 1em;
+    }
+}

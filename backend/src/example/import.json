@@ -1,0 +1,87 @@
+{
+    "ingredients": [{
+        "name": "ingredient 1",
+        "amount": 1,
+        "unit": "unit",
+        "fat": 2,
+        "protein": 3,
+        "fiber": 4,
+        "carbohydrates": 5,
+        "calories": 6
+    }],
+    "recipes": [{
+        "name": "recipe 1",
+        "ingredients": [{
+            "name": "ingredient 2",
+            "amount": 3,
+            "unit": "unit",
+            "fat": 2,
+            "protein": 3,
+            "fiber": 4,
+            "carbohydrates": 5,
+            "calories": 6
+        }],
+        "instructions": ["instruction 1", "instruction 2", "instruction 3"]
+    }],
+    "meals": [{
+        "name": "meal 1",
+        "recipes": [{
+            "name": "recipe 1",
+            "ingredients": [{
+                "name": "ingredient 2",
+                "amount": 3,
+                "unit": "unit",
+                "fat": 2,
+                "protein": 3,
+                "fiber": 4,
+                "carbohydrates": 5,
+                "calories": 6
+            }],
+            "instructions": ["instruction 1", "instruction 2", "instruction 3"]
+        }]
+    }],
+    "histories": [{
+        "weight": 1,
+        "targetWeight": 2,
+        "targetCalories": 2,
+        "calories": 1,
+        "meals": [{
+            "name": "meal 1",
+            "recipes": [{
+                "name": "recipe 1",
+                "ingredients": [{
+                    "name": "ingredient 2",
+                    "amount": 3,
+                    "unit": "unit",
+                    "fat": 2,
+                    "protein": 3,
+                    "fiber": 4,
+                    "carbohydrates": 5,
+                    "calories": 6
+                }],
+                "instructions": ["instruction 1", "instruction 2", "instruction 3"]
+            }]
+        }, {
+            "name": "meal 2",
+            "recipes": [{
+                "name": "recipe 1",
+                "ingredients": [{
+                    "name": "ingredient 2",
+                    "amount": 3,
+                    "unit": "unit",
+                    "fat": 2,
+                    "protein": 3,
+                    "fiber": 4,
+                    "carbohydrates": 5,
+                    "calories": 6
+                }],
+                "instructions": ["instruction 1", "instruction 2", "instruction 3"]
+            }]
+        }],
+        "workout": {
+            "minutes": 1,
+            "date": "2022-04-15",
+            "rate": 2
+        }
+    }]
+}

@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #CB997E;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  @apply h-screen max-w-5xl px-8 mx-auto;
+}
+
+
+input[type="text"], textarea {
+  background-color : #FFE8D6; 
+}
+
+h1{
+  font-weight: bold;
+}
+
+
+.button-container{
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem; 
+  padding-left: 2rem;
+  padding-right: 2rem; 
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform; 
+  font-weight: 600; 
+  cursor: pointer;
+  background-color:#B7B7A4;
+  border-radius: 0.5rem; 
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); 
+}
+
+.input-container {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem; 
+  padding-left: 1.25rem;
+  padding-right: 1.25rem; 
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform; 
+  transition-duration: 300ms; 
+  font-weight: 600; 
+  border-radius: 0.5rem; 
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); 
+}

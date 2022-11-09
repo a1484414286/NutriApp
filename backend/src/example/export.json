@@ -1,0 +1,46 @@
+{
+    "history": [{
+        "weight": 1.0,
+        "targetWeight": 2.0,
+        "targetCalories": 2.0,
+        "calories": 1.0,
+        "meals": [{
+            "name": "meal 1",
+            "recipes": [{
+                "name": "recipe 1",
+                "ingredients": [{
+                    "name": "ingredient 2",
+                    "amount": 3.0,
+                    "unit": "unit",
+                    "fat": 2.0,
+                    "protein": 3.0,
+                    "fiber": 4.0,
+                    "carbohydrates": 5.0,
+                    "calories": 6
+                }],
+                "instructions": ["instruction 1", "instruction 2", "instruction 3"]
+            }]
+        }, {
+            "name": "meal 2",
+            "recipes": [{
+                "name": "recipe 1",
+                "ingredients": [{
+                    "name": "ingredient 2",
+                    "amount": 3.0,
+                    "unit": "unit",
+                    "fat": 2.0,
+                    "protein": 3.0,
+                    "fiber": 4.0,
+                    "carbohydrates": 5.0,
+                    "calories": 6
+                }],
+                "instructions": ["instruction 1", "instruction 2", "instruction 3"]
+            }]
+        }],
+        "workout": {
+            "minutes": 1,
+            "date": "2022-04-15",
+            "rate": 2.0
+        }
+    }]
+}
